@@ -1,0 +1,37 @@
+body{
+    background-color: lavender;
+}
+
+table, th, td 
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td 
+{
+    background-color: #96D4D4;
+}
+
+.c1{
+    padding-right: 30px;
+}
+.c2{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.c3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.c4{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.c5{
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.c6{
+    padding-left: 20px;
+    padding-right: 20px;
+}

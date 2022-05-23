@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="./jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1>Student Data</h1>
+        </div>
+
+        <div data-role="content">
+            <form action="echo.cfm" method = "post">
+
+        <!-- Fields To Enter -->
+        <div data-role="fieldcontain">
+            <label for="username">Enter Name</label>
+            <input  type="text" name="uname" id="uname" value=""/>
+        <div>
+        <div  data-role="fieldcontain">
+            <label for="useremail">Enter Email</label>
+            <input  type="text" name="uemail" id="uemail" value=""/>
+        <div>
+        <div  data-role="fieldcontain">
+            <label for="userdept">Enter Department</label>
+            <input  type="text" name="userdept" id="userdept" value=""/>
+        <div>
+        <div  data-role="fieldcontain">
+            <label for="userdept">CGPA</label>
+            <input type="text" name="cgpa" id="cgpa" value=""/>
+        <div>
+        
+        <!-- Text Area -->
+        <div data-role="fieldcontain">
+            <label for="bio">Project Description</label>
+            <textarea name="bio" id="bio"></textarea>
+        <div>
+
+        <!-- Control Groups -->
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup"></fieldset>
+            <legend>Education</legend>
+
+            <input type="radio" name="edu" id="edu1" value="Diploma">
+            <label for="edu1">Diploma</label>
+
+            <input type="radio" name="edu" id="edu2" value="Diploma">
+            <label for="edu2">UG</label>
+
+            <input type="radio" name="edu" id="edu3" value="Diploma">
+            <label for="edu3">PG</label>
+        <div>    
+        
+        <!-- CheckBox -->
+
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup"></fieldset>
+            <legend>Education</legend>
+
+            <input type="checkbox" name="lang" id="lang1" value="Diploma">
+            <label for="lang1">English</label>
+
+            <input type="checkbox" name="lang" id="lang2" value="Diploma">
+            <label for="lang2">Hindi</label>
+
+            <input type="checkbox" name="lang" id="lang3" value="Diploma">
+            <label for="lang3">Marathi</label>
+        <div>  
+
+        <!-- Submit Button -->
+        <div data-role="fieldcontain">
+            <input type="submit" name="submit" value="Submit"/>
+        <div>    
+                
+    </form>
+    </div>
+    </div>
+</body>
+</html>

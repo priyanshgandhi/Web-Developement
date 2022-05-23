@@ -1,0 +1,91 @@
+.index-body{
+    background-color: #1D5C63;
+}
+
+.custom-table{
+    background-color: #712B75;
+}
+
+.form-control{
+    border: none;
+    background-color: #069A8E;
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+.btn{
+    background-color: #069A8E;
+    border: white solid 2px;
+    color: aliceblue;
+}
+
+form{
+    position: relative;
+    margin: 10% auto;
+    width:40%;
+}
+form button{
+    position: relative;
+    margin: 1% auto;
+}
+#heading
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:15%;
+    color: white;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.submit-btn {
+    
+    width: 24%;
+    
+    margin: 4% 38%;
+    
+}
+
+.main-table
+{
+    position: relative;
+    top:20%;
+    margin: 10% auto;
+    width: 80%;
+
+}
+.main-table th
+{
+    background-color: #1E5128;
+    
+}
+
+.main-table tr
+{
+    text-align: center;
+    color: white;
+}
+
+.last-td{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last-td div{
+    text-align: end;
+    width:30%;
+}
+caption{
+    display: table-caption;
+    text-align: center;
+}
+.main-table tr:nth-child(odd)
+{
+    background-color:#46244C;
+   
+}
